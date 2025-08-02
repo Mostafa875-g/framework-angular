@@ -1,9 +1,0 @@
-{
-  "routes": {
-    "/framework-angular": {},
-    "/framework-angular/about": {},
-    "/framework-angular/contact": {},
-    "/framework-angular/home": {},
-    "/framework-angular/portfolio": {}
-  }
-}
