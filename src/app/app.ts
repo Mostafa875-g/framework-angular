@@ -6,7 +6,7 @@ import { Notfound } from "./components/notfound/notfound";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,Navbar, Footer, Notfound],
+  imports: [RouterOutlet,Navbar, Footer],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
