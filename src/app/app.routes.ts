@@ -10,25 +10,25 @@ export const routes: Routes = [
     path: 'home',
     loadComponent: () =>
       import('./components/home/home').then((m) => m.Home),
-    title: 'Start Framework'
+    title: 'Home'
   },
   {
     path: 'about',
     loadComponent: () =>
       import('./components/about/about').then((m) => m.About),
-    title: 'About - Start Framework'
+    title: 'About'
   },
   {
     path: 'contact',
     loadComponent: () =>
       import('./components/contact/contact').then((m) => m.Contact),
-    title: 'Contact - Start Framework'
+    title: 'Contact'
   },
   {
     path: 'portfolio',
     loadComponent: () =>
       import('./components/portfolio/portfolio').then((m) => m.Portfolio),
-    title: 'Portfolio - Start Framework'
+    title: 'Portfolio'
   },
   {
     path: '**',
